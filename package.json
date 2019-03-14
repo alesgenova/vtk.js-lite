@@ -1,0 +1,20 @@
+{
+  "name": "vtk.js-lite",
+  "version": "1.0.0",
+  "description": "A stripped down bundled version of vtkjs.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --progress --colors --mode development",
+    "build:release": "webpack --progress --colors --mode production",
+    "start": "webpack-dev-server --content-base ./dist",
+    "prepare": "npm install && npm run build:release"
+  },
+  "author": "Alessandro Genova",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "vtk.js": "^8.3.15"
+  },
+  "devDependencies": {
+    "kw-web-suite": "^8.0.0"
+  }
+}
