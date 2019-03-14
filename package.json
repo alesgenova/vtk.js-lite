@@ -7,7 +7,7 @@
     "build": "webpack --progress --colors --mode development",
     "build:release": "webpack --progress --colors --mode production",
     "start": "webpack-dev-server --content-base ./dist",
-    "prepare": "npm install && npm run build:release"
+    "prepare": "npm run build:release"
   },
   "author": "Alessandro Genova",
   "license": "BSD-3-Clause",
