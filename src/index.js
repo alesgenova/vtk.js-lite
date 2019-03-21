@@ -27,3 +27,5 @@ export { default as vtkPlaneSource } from 'vtk.js/Sources/Filters/Sources/PlaneS
 export { AttributeTypes } from 'vtk.js/Sources/Common/DataModel/DataSetAttributes/Constants';
 export { FieldDataTypes } from 'vtk.js/Sources/Common/DataModel/DataSet/Constants';
 export { Representation } from 'vtk.js/Sources/Rendering/Core/Property/Constants';
+
+export { default as vtkLabelWidget } from 'vtk.js/Sources/Interaction/Widgets/LabelWidget';
